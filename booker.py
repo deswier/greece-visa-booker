@@ -52,9 +52,9 @@ def do_reservation(driver, first_name, last_name, email, phone):
 
     set_checkbox_terms(driver)
 
-    # time.sleep(3)
-    # press_reserve_button(driver)
-    # time.sleep(10)
+    time.sleep(3)
+    press_reserve_button(driver)
+    time.sleep(5)
     report(driver)
     time.sleep(5)
 
@@ -78,6 +78,7 @@ def reservation(success, driver, first_name, last_name, email, phone):
             except Exception as e:
                 print("Error while get next month")
                 raise()
+        # Uncommit this for booking several lots. Note that such lots may not exist
         # try:
         #     increase_persons(driver)
         # except Exception as e:
