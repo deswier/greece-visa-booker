@@ -1,4 +1,4 @@
-# # Selenium Web Automation Script
+## Selenium Web Automation Script
 
 This project contains a Python script that uses Selenium WebDriver to automate interactions with the MFA Greece appointment reservation page.
 
